@@ -226,7 +226,7 @@ it('preenche os campos obrigatórios e envia o formulário', () => {
   // Ajuste em package.json (adição dos scripts   cy:open:mobile   e   test:mobile)
 
   // Seção 10 - 
-  it('', () => {
+  it.only('', () => {
 
   })
 })
