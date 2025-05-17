@@ -1,28 +1,21 @@
 # 🌲 Cypress, do Zero à Nuvem ☁️
 
-👋 Seja bem-vindo(a)!
+Um projeto simples para demonstrar a utilização do Cypress a nível básico.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pre-requisitos
 
-## O que você vai aprender?
+Necessário ter Node.js e npm instalado para rodar os projetos.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+> Eu uso as versões `v20.15.0` e `10.9.2` do Node.js e npm, respectivamente. Eu sugiro que você use a mesma ou versões mais recentes.
 
-## Vamos começar?
+## Instalação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Rode `npm install` (ou `npm i` para versões mais antigas) para instalar as dependências.
+
+## Testes
+
+Rode `npm test` (ou `npm t` para as versões anteriores) para rodar o teste em modo headless.
+
+Ou, rode `npm run cy:open` para abrir o Cypress em modo interativo.
 
 ___
-
-Este é um curso da **Escola Talking About Testing**.
